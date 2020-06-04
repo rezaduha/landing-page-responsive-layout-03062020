@@ -162,7 +162,7 @@ section .imgBx img {
         right: 40px;
         width: 30px;
         height: 30px;
-        background: url(menu.png);
+        background: url(../img/menu.png);
         filter: invert(1);
         background-size: 30px;
         cursor: pointer;
@@ -171,7 +171,7 @@ section .imgBx img {
     }
 
     .menu-icon.active {
-        background: url(close.png);
+        background: url(../img/close.png);
         filter: invert(1);
         background-size: 30px;
         cursor: pointer;
