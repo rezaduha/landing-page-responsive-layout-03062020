@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="content">
+            <h2>Lionel Messi</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam veniam praesentium quam laudantium dignissimos cumque, saepe sit, fugit reprehenderit et quo nam? Deserunt nisi harum recusandae dolore eos, perferendis illo illum laborum excepturi cupiditate officia distinctio iusto voluptatem sapiente laudantium, deleniti fugiat temporibus, aliquid ducimus?</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="imgBx">
+            <img src="lionel-messi.png" alt="Lionel Messi">
+        </div>
+        <ul class="nav" id="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">About</a></li>
+            <li><a href="#">Performance</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Ranking</a></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </section>
+    <span class="menu-icon" id="toggle" onclick="menuToggle()"></span>
+    <script type="text/javascript">
+        function menuToggle() {
+            var nav = document.getElementById("nav");
+            nav.classList.toggle('active')
+            var toggle = document.getElementById("toggle");
+            toggle.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
